@@ -1,6 +1,6 @@
 import threading
-import cv2
-from deepface import DeepFace
+import cv2 #opencv-python (package)
+from deepface import DeepFace #deepface (package)
 
 # Initialize Video Capture
 cap = cv2.VideoCapture(0, cv2.CAP_AVFOUNDATION)  # macOS-compatible backend
